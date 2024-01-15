@@ -1,4 +1,4 @@
-package com.github.daneillima.springbootmongodb;
+package com.github.daniellimadev.springbootmongodb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

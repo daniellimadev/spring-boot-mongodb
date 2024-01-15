@@ -1,4 +1,4 @@
-package com.github.daneillima.springbootmongodb.exception;
+package com.github.daniellimadev.springbootmongodb.exception;
 
 
 import org.springframework.http.HttpStatus;

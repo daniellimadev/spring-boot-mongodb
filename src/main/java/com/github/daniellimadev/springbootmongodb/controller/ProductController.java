@@ -1,7 +1,7 @@
-package com.github.daneillima.springbootmongodb.controller;
+package com.github.daniellimadev.springbootmongodb.controller;
 
-import com.github.daneillima.springbootmongodb.model.Product;
-import com.github.daneillima.springbootmongodb.service.ProductService;
+import com.github.daniellimadev.springbootmongodb.model.Product;
+import com.github.daniellimadev.springbootmongodb.service.ProductService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

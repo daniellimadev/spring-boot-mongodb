@@ -1,8 +1,8 @@
-package com.github.daneillima.springbootmongodb.service;
+package com.github.daniellimadev.springbootmongodb.service;
 
-import com.github.daneillima.springbootmongodb.exception.ResourceNotFoundException;
-import com.github.daneillima.springbootmongodb.model.Product;
-import com.github.daneillima.springbootmongodb.repository.ProductRepository;
+import com.github.daniellimadev.springbootmongodb.exception.ResourceNotFoundException;
+import com.github.daniellimadev.springbootmongodb.model.Product;
+import com.github.daniellimadev.springbootmongodb.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

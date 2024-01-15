@@ -1,4 +1,4 @@
-package com.github.daneillima.springbootmongodb.model;
+package com.github.daniellimadev.springbootmongodb.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
