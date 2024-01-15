@@ -44,7 +44,7 @@ $ GET http://localhost:8080/api/products
 
 - List product by id
 ```
-$ GET http://localhost:8080/api/65a5688f3ef52b15fb94fce1
+$ GET http://localhost:8080/api/products/65a5688f3ef52b15fb94fce1
 
 [
   {
