@@ -11,6 +11,72 @@ HTTP methods like GET, POST, PUT and DELETE and will also be integrated with a N
 * **DataBase:** MongoDB
 * **Framework:** Spring Boot
 
+## API Endpoints
+
+To make the HTTP requests below, the tool [Postman](https://www.postman.com/) was used:
+
+- Create Product
+```
+$ POST http://localhost:8080/api/products
+
+[
+  {
+    "productName" : "IPad mini",
+    "productPrice" : "699.99",
+    "productDescription" : "Very cool IPad!!"
+  }
+]
+```
+
+- List all Products
+```
+$ GET http://localhost:8080/api/products
+
+[
+  {
+    "productId": "65a5688f3ef52b15fb94fce1",
+    "productName": "IPad mini",
+    "productPrice": 699.99,
+    "productDescription": "Very cool IPad!"
+  }
+]
+```
+
+- List product by id
+```
+$ GET http://localhost:8080/api/65a5688f3ef52b15fb94fce1
+
+[
+  {
+    "productId": "65a5688f3ef52b15fb94fce1",
+    "productName": "IPad mini",
+    "productPrice": 699.99,
+    "productDescription": "Very cool IPad!"
+  }
+]
+```
+
+- Update Product
+```
+$ PUT http://localhost:8080/api/products/65a5688f3ef52b15fb94fce1
+
+[
+  {
+    "productId": "65a5688f3ef52b15fb94fce1",
+    "productName": "IPad mini",
+    "productPrice": 899.99,
+    "productDescription": "Very cool IPad!"
+  }
+]
+```
+
+- Remove Product
+```
+DELETE http://localhost:8080/api/products/65a5688f3ef52b15fb94fce1
+
+[ ]
+```
+
 <br>
 
 <h3>Author</h3>
